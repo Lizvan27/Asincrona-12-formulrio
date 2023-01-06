@@ -8,28 +8,27 @@
             <div class="my-5 p-3">
                 <label for="Nombre">Nombre</label>
                 <input [invalid]="formContacto.get('Nombre')?.valid"
-                overUp type="text" id="Nombre" formControlName="Nombre" class="py-1 px-3 rounded dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" 
+                overUp type="text" id="Nombre" formControlName="Nombre" class="border-2 border-gray-500 p-2 rounded-md  focus:outline-teal-500" 
                 [(ngModel)]="Nombre">
-                <!--block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer-->
             </div>
             <!-- input email -->
             <div class="my-5 p-3">
                 <label for="email">Email</label>
-                <input overUp type="text" id="email" formControlName="email" class="py-1 px-3 rounded" [(ngModel)]="email">
+                <input overUp type="text" id="email" formControlName="email" class="border-2 border-gray-500 p-2 rounded-md  focus:outline-teal-500" [(ngModel)]="email">
             </div>
             <div class="my-5 p-3">
                 <label for="telefono">Tel&eacute;fono</label>
-                <input overUp type="text" id="telefono" formControlName="telefono" class="py-1 px-3 rounded" [(ngModel)]="telefono">
+                <input overUp type="text" id="telefono" formControlName="telefono" class="border-2 border-gray-500 p-2 rounded-md  focus:outline-teal-500" [(ngModel)]="telefono">
             </div>
             <div class="my-5 p-3">
                 <label for="asunto">Asunto</label>
-                <input overUp type="text" id="asunto" formControlName="asunto" class="py-1 px-3 rounded" [(ngModel)]="asunto">
+                <input overUp type="text" id="asunto" formControlName="asunto" class="border-2 border-gray-500 p-2 rounded-md  focus:outline-teal-500" [(ngModel)]="asunto">
             </div>
 
             <!-- input mensaje -->
             <div class="my-5 p-3">
                 <label for="Mensaje">Mensaje</label>
-                <textarea overUp name="Mensaje" id="Mensaje" cols="30" rows="10"  formControlName="Mensaje" [(ngModel)]="Mensaje"></textarea>
+                <textarea overUp name="Mensaje" id="Mensaje" cols="30" rows="10"  formControlName="Mensaje" [(ngModel)]="Mensaje" class="border-2 border-gray-500 p-2 rounded-md  focus:outline-teal-500"></textarea>
             </div>
   
   
